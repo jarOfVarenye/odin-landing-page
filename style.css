@@ -1,0 +1,51 @@
+.header {
+    background-color: #1F2937;
+}
+
+.top {
+
+}
+
+.icon {
+    font: 24px;
+    color: #F9FAF8;
+}
+
+.links {
+
+}
+
+.title {
+
+}
+
+.title-text {
+
+}
+
+.title-text h1{
+    font: 48px extra-bold;
+    color: #F9FAF8
+}
+
+.title-text p, .links li {
+    font: 18px;
+    color: #E5E7EB;
+}
+
+button {
+    background-color: #3882F6;
+}
+
+.information h2 {
+    font: 36px extra-bold;
+    color: #1F2937;
+}
+
+.quote {
+    background-color: #E5E7EB;
+}
+.quote .text {
+    font: 36px light italic;
+    color: #1F2937;
+}
