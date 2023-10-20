@@ -1,5 +1,37 @@
+* {
+    padding: 0;
+    margin: 0;
+    /* border: 2px solid red; */
+}
+
+body {
+    min-height: 100vh;
+}
+
+body {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.header, .information, .quote, .call-action, .footer{
+    padding: 15px 300px;
+    height: 300%;
+    flex: 1;
+}
+
 .header {
     background-color: #1F2937;
+    display: flex;
+    flex-direction: column;
+    gap: 50px
+}
+
+.header-line {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .top {
@@ -11,16 +43,29 @@
     color: #F9FAF8;
 }
 
-.links {
-
+.links li{
+    display: inline-block;
+    margin: 0 10px;
 }
 
-.title {
-
+.hero-text {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
 }
 
 .title-text {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    /* flex: 1; */
+    align-items: stretch;
+    /* min-width: 400px; */
+}
 
+.hero-text > *{
+    /* flex: 1; */
 }
 
 .title-text h1{
@@ -28,13 +73,30 @@
     color: #F9FAF8
 }
 
+.title-text p {
+    text-align: left;
+}
+
 .title-text p, .links li {
     font: 18px;
     color: #E5E7EB;
 }
 
+.placeholder {
+    padding: 100px 200px;
+    background-color: grey;
+    /* flex: 1; */
+    text-align: center;
+}
+
 button {
     background-color: #3882F6;
+    color: white;
+    border-radius: 5px;
+    padding: 5px 25px;
+    border: 0;
+    flex: none;
+    max-width: 95.22px;
 }
 
 .information h2 {
@@ -44,6 +106,8 @@ button {
 
 .quote {
     background-color: #E5E7EB;
+    display: flex;
+    justify-content: center;
 }
 .quote .text {
     font: 36px light italic;
