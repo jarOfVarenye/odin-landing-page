@@ -82,10 +82,9 @@ body {
     color: #E5E7EB;
 }
 
-.placeholder {
+.hero-text .placeholder {
     padding: 100px 200px;
     background-color: grey;
-    /* flex: 1; */
     text-align: center;
 }
 
@@ -102,6 +101,39 @@ button {
 .information h2 {
     font: 36px extra-bold;
     color: #1F2937;
+}
+
+.information {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 30px;
+    padding: 50px 300px 100px 300px;
+}
+
+.information .info-blocks {
+    display: flex;
+    gap: 30px;
+}
+
+.info-block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+}
+
+.info-block .placeholder {
+    padding: 30px;
+    border: 3px solid blue;
+    border-radius: 8px;
+    flex: none;
+}
+
+.info-block p {
+    max-width: 150px;
+    text-align: center;
 }
 
 .quote {
